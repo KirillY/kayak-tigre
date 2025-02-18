@@ -1,0 +1,11 @@
+{{ if .Site.Copyright }}
+<div class="container py-3">
+  <div class="row text-center">
+    <div class="col">
+      <div class="copyright text-muted">
+        {{ .Site.Copyright | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

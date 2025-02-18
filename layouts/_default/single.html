@@ -1,0 +1,43 @@
+{{ define "main" }}
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <article class="content">
+        <h1 class="mb-4">{{ .Title }}</h1>
+        {{ if .Description }}
+        <p class="lead mb-5">{{ .Description }}</p>
+        {{ end }}
+        
+        {{ if .Params.tags }}
+        <div class="mb-4">
+          {{ range .Params.tags }}
+          <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="btn btn-outline-primary btn-sm me-2 mb-2">{{ . }}</a>
+          {{ end }}
+        </div>
+        {{ end }}
+        
+        {{ .Content | replaceRE "<img" "<img class=\"img-fluid rounded mb-4\"" | safeHTML }}
+      </article>
+    </div>
+  </div>
+</div>
+
+<style>
+.content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem 0;
+}
+
+.content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+</style>
+{{ end }}

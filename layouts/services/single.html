@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <article class="service-content">
+        <h1 class="mb-4">{{ .Title }}</h1>
+        <p class="lead mb-5">{{ .Description }}</p>
+        
+        {{ .Content | replaceRE "<img" "<img class=\"img-fluid rounded mb-4\"" | replaceRE "<div style=\"max-width: 800px; margin: 20px auto;\">" "<div>" | safeHTML }}
+      </article>
+    </div>
+  </div>
+</div>
+
+<style>
+.service-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem 0;
+}
+
+.service-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.service-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+</style>
+{{ end }}

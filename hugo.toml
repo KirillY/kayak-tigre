@@ -1,0 +1,127 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Kayak Tigre'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[module]
+  [[module.imports]]
+    path = 'github.com/gethinode/hinode'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params.features]
+  search = true
+  darkmode = true
+  multilanguage = true
+
+[params.style]
+  css = ["css/custom.css"]
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    weight = 1
+    languageName = "English"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 5
+      [[languages.en.menu.main]]
+        identifier = "services"
+        name = "Our Services"
+        url = "/services/"
+        weight = 10
+      [[languages.en.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog/"
+        weight = 20
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About Us"
+        url = "/en/contact/"
+        weight = 30
+
+  [languages.ru]
+    contentDir = "content/ru"
+    weight = 2
+    languageName = "Русский"
+    [languages.ru.menu]
+      [[languages.ru.menu.main]]
+        identifier = "home"
+        name = "Главная"
+        url = "/"
+        weight = 5
+      [[languages.ru.menu.main]]
+        identifier = "services"
+        name = "Наши услуги"
+        url = "/services/"
+        weight = 10
+      [[languages.ru.menu.main]]
+        identifier = "blog"
+        name = "Блог"
+        url = "/blog/"
+        weight = 20
+      [[languages.ru.menu.main]]
+        identifier = "contacts"
+        name = "Контакты"
+        url = "/contacts/"
+        weight = 30
+
+  [languages.es]
+    contentDir = "content/es"
+    weight = 3
+    languageName = "Español"
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        identifier = "home"
+        name = "Inicio"
+        url = "/"
+        weight = 5
+      [[languages.es.menu.main]]
+        identifier = "services"
+        name = "Nuestros Servicios"
+        url = "/services/"
+        weight = 10
+      [[languages.es.menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog/"
+        weight = 20
+      [[languages.es.menu.main]]
+        identifier = "contacts"
+        name = "Contactos"
+        url = "/es/contact/"
+        weight = 30
+
+
+
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 20
+  [[menu.main]]
+    identifier = "contacts"
+    name = "Contacts"
+    url = "/contacts/"
+    weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[security]
+  [security.http]
+    [security.http.headers]
+      Content-Security-Policy = "script-src 'self' 'unsafe-inline' www.instagram.com instagram.com; frame-src www.instagram.com instagram.com;"
+
+[params.footer]
+  socialLinks = false

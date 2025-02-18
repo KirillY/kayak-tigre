@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="container py-5">
+  <div class="text-center mb-5">
+    <h1 class="display-4">{{ .Title }}</h1>
+    <p class="lead text-muted">{{ .Description }}</p>
+  </div>
+  
+  <div class="row g-4">
+    {{ range .Pages }}
+    <div class="col-md-6 mb-4">
+      <div class="card h-100 shadow-sm hover-shadow transition">
+        {{ if .Params.image }}
+        <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Title }}" style="height: 300px; object-fit: cover;">
+        {{ end }}
+        <div class="card-body">
+          <h5 class="card-title">{{ .Title }}</h5>
+          <p class="card-text text-muted">{{ .Description }}</p>
+          <a href="{{ .RelPermalink }}" class="btn btn-outline-primary">{{ i18n "learn_more" }} →</a>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.transition {
+  transition: all .3s ease;
+}
+</style>
+{{ end }}

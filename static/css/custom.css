@@ -1,0 +1,22 @@
+.navbar {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.navbar::after,
+.navbar::before {
+    display: none !important;
+}
+
+.content {
+    padding-top: 0 !important;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+.hero-section {
+    margin-top: -72px;
+}
