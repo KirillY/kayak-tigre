@@ -9,11 +9,6 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - '**.md'
-      - '.gitignore'
-      - '.github/**/*.md'
-
 jobs:
   build-test-publish:
     runs-on: ubuntu-22.04
