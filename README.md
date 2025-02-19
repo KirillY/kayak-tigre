@@ -1,6 +1,6 @@
-# Kayak Tigre Website Content Management Guide
+# Content Management Guide 
 
-This guide explains how to update the website content, add images, and troubleshoot common issues.
+This part of the guide explains how to update the website content, add images, and troubleshoot common issues.
 
 ## Updating Content
 
@@ -125,7 +125,9 @@ The site has 18 basic page tests that must pass before deployment. If any test f
 
 For persistent issues or questions, please contact the site administrator.
 
-# For Developers
+# Developers Guide
+
+This part describes how to install dependencies to start updating the site layout
 
 ### Prerequisites
 
