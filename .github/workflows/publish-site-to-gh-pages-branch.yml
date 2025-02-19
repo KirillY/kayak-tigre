@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     container:
-      image: ubuntu:22.04-minimal
+      image: ubuntu:22.04
     steps:
       - name: Check out the repository
         uses: actions/checkout@v2
@@ -103,7 +103,7 @@ jobs:
     needs: [build, test]
     runs-on: ubuntu-22.04
     container:
-      image: ubuntu:22.04-minimal
+      image: ubuntu:22.04
     steps:
       - name: Download site artifact
         uses: actions/download-artifact@v4
