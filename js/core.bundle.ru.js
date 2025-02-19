@@ -6508,7 +6508,7 @@ function initIndex() {
       {
         id: 1,
         tag: "ru",
-        href: "/ru/blog/first-post/",
+        href: "/ru/blog/2025/02/first-post/",
         title: "Начало путешествия с турами на каяках",
         description: "Добро пожаловать в наш блог о приключениях на каяках! Откройте для себя лучшие маршруты и незабываемые впечатления в дельте Тигре. Наши опытные гиды поделятся советами и историями, которые помогут вам начать свое путешествие в мире каякинга.\nView this post on Instagram A post shared by Olga Ivleva (@ivleva.guide)\n",
         

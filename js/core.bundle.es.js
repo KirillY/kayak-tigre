@@ -6493,7 +6493,7 @@ function initIndex() {
       {
         id: 0,
         tag: "es",
-        href: "/es/blog/first-post/",
+        href: "/es/blog/2025/02/first-post/",
         title: "Comenzando con los Tours en Kayak",
         description: "¡Bienvenidos a nuestro blog de aventuras en kayak! Descubre las mejores rutas y experiencias inolvidables en el Delta del Tigre. Nuestros guías expertos compartirán consejos e historias para ayudarte a comenzar tu viaje en el mundo del kayak.\nView this post on Instagram A post shared by Olga Ivleva (@ivleva.guide)\n",
         

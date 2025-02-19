@@ -99,6 +99,21 @@
   </url><url>
     <loc>http://localhost:1313/en/blog/2025/02/first-post/</loc>
     <lastmod>2025-02-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/blog/2025/02/first-post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/blog/2025/02/first-post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/blog/2025/02/first-post/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/categories/guides/</loc>
     <lastmod>2025-02-17T00:00:00+00:00</lastmod>
@@ -123,9 +138,39 @@
   </url><url>
     <loc>http://localhost:1313/en/blog/2025/02/</loc>
     <lastmod>2025-02-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/blog/2025/02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/blog/2025/02/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/blog/2025/02/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/blog/2025/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:1313/ru/blog/2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/blog/2025/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/blog/2025/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/services/</loc>
     <xhtml:link
