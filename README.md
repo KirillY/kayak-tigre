@@ -124,3 +124,52 @@ The site has 18 basic page tests that must pass before deployment. If any test f
 4. Push your changes again
 
 For persistent issues or questions, please contact the site administrator.
+
+## For Developers
+
+### Prerequisites
+
+Before you start development, ensure you have the following tools installed:
+
+1. **Go (via asdf)**:
+   ```bash
+   # Install asdf-golang plugin
+   asdf plugin add golang
+   # Install latest Go version
+   asdf install golang latest
+   asdf global golang latest
+   ```
+   For more details, visit [asdf-golang](https://github.com/asdf-community/asdf-golang)
+
+2. **Hugo**:
+   - Follow the installation guide at [gohugo.io/installation](https://gohugo.io/installation/)
+   - Ensure you install the extended version which includes SCSS support
+
+3. **Hinode**:
+   - Our site uses the Hinode theme, a modern Hugo theme
+   - Documentation available at [gethinode/hinode](https://github.com/gethinode/hinode)
+
+### Local Development Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KirillY/kayak-tigre.git
+   cd kayak-tigre
+   ```
+
+2. Install dependencies for E2E testing:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   hugo server
+   ```
+
+4. Run E2E tests:
+   ```bash
+   npm test
+   ```
+
+The site will be available at `http://localhost:1313` with hot-reload enabled.
