@@ -68,9 +68,9 @@ defaultContentLanguageInSubdir = true
         url = "/blog/"
         weight = 20
       [[languages.ru.menu.main]]
-        identifier = "contacts"
-        name = "Контакты"
-        url = "/contacts/"
+        identifier = "about"
+        name = "О нас"
+        url = "/ru/contact/"
         weight = 30
 
   [languages.es]
