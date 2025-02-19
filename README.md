@@ -4,10 +4,47 @@ This part of the guide explains how to update the website content, add images, a
 
 ## Updating Content
 
+### Content Structure
+
+The website content is organized in a multilingual structure with three languages (EN, ES, RU). Each language follows the same page hierarchy:
+
+```
+content/
+├── en/                     # English content
+│   ├── _index.md          # Home page
+│   ├── about/
+│   │   └── _index.md      # About section
+│   ├── services/
+│   │   ├── _index.md      # Services listing
+│   │   └── delta-full-day.md
+│   └── blog/
+│       ├── _index.md      # Blog listing
+│       └── 2025/
+│           ├── _index.md  # Year archive
+│           └── 02/
+│               ├── _index.md      # Month archive
+│               └── first-post.md
+├── es/                     # Spanish content
+│   └── [Same structure as English]
+└── ru/                     # Russian content
+    └── [Same structure as English]
+```
+
+Each language section contains 9 pages:
+1. Home page (`_index.md`)
+2. About section (`about/_index.md`)
+3. Services section (`services/_index.md`)
+4. Service page (`services/delta-full-day.md`)
+5. Blog section (`blog/_index.md`)
+6. Blog post (`blog/2025/02/first-post.md`)
+7. Blog year archive (`blog/2025/_index.md`)
+8. Blog month archive (`blog/2025/02/_index.md`)
+9. Services index (`services/_index.md`)
+
 ### Services and Blog Posts
-The content for services and blog posts is located in the `content` directory:
-- Services: `content/services/`
-- Blog posts: `content/blog/`
+The content for services and blog posts is located in their respective directories under each language section:
+- Services: `content/{lang}/services/`
+- Blog posts: `content/{lang}/blog/`
 
 Each content file should be in Markdown format (`.md`) with the following structure:
 ```markdown
