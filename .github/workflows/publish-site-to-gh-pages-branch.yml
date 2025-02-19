@@ -82,6 +82,7 @@ jobs:
           pkill hugo    # Stop Hugo server after tests
 
       - name: Publish to gh-pages branch
+        if: success()
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
