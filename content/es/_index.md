@@ -17,7 +17,7 @@ description: "Descubre la belleza del Delta de Tigre"
         <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white;">
           <h1 class="display-4 fw-bold">Experimenta la Naturaleza</h1>
           <p class="lead">Sumérgete en la tranquilidad del delta</p>
-          <a href="/es/services/" class="btn btn-primary btn-lg">Ver Tours</a>
+          <a href="/es/services/" class="btn btn-primary btn-lg">Descubre Nuestros Tours</a>
         </div>
       </div>
     </div>
@@ -38,7 +38,7 @@ description: "Descubre la belleza del Delta de Tigre"
       <h2>Bienvenidos a Kayak Tigre</h2>
       <p class="lead">Descubre la belleza oculta del Delta de Tigre a través de nuestros tours guiados en kayak y SUP.</p>
       <p>Ofrecemos una variedad de experiencias adecuadas para todos los niveles, desde principiantes hasta remadores experimentados. Nuestros guías expertos garantizarán tu seguridad mientras comparten su conocimiento del ecosistema y la cultura local.</p>
-      <a href="/es/services/" class="btn btn-outline-primary">Explora Nuestros Tours</a>
+      <a href="/es/services/" class="btn btn-outline-primary">Descubre Nuestros Tours</a>
     </div>
     <div class="col-md-6">
       <img src="https://i.postimg.cc/xd9XR7Wg/El-R-o-Tigre-desbocando-en-el-R-o-Luj-n-El-Club-de-Regatas-La-Marina-y-de-fondo-todo-el-verde-de-nu.jpg" alt="Delta de Tigre" class="img-fluid rounded shadow">
