@@ -1,0 +1,7 @@
+[en]
+    languageName = "English"
+    weight = 1
+# toml-docs-end lang-main
+# toml-docs-start lang-param
+    [en.params.head]
+        tagline = ""
