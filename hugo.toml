@@ -17,6 +17,17 @@ defaultContentLanguageInSubdir = true
   darkmode = true
   multilanguage = true
 
+[params]
+  description = "Experience unforgettable kayak tours in the stunning Tigre Delta. Book your adventure today!"
+  images = ["img/DSC05308-2.jpg"]
+  title = "Kayak Tigre - Discover the Beauty of Tigre Delta"
+
+[params.meta]
+  keywords = ["kayak", "tigre", "delta", "tours", "adventure"]
+
+[social]
+  twitter = "kayaktigre"
+
 [params.style]
   css = ["css/custom.css"]
 
@@ -44,7 +55,7 @@ defaultContentLanguageInSubdir = true
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About Us"
-        url = "/en/contact/"
+        url = "/en/about/"
         weight = 30
 
   [languages.ru]
@@ -70,7 +81,7 @@ defaultContentLanguageInSubdir = true
       [[languages.ru.menu.main]]
         identifier = "about"
         name = "О нас"
-        url = "/ru/contact/"
+        url = "/ru/about/"
         weight = 30
 
   [languages.es]
@@ -94,9 +105,9 @@ defaultContentLanguageInSubdir = true
         url = "/blog/"
         weight = 20
       [[languages.es.menu.main]]
-        identifier = "contacts"
-        name = "Contactos"
-        url = "/es/contact/"
+        identifier = "about"
+        name = "Sobre nosotros"
+        url = "/es/about/"
         weight = 30
 
 
