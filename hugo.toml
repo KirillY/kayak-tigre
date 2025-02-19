@@ -17,17 +17,6 @@ defaultContentLanguageInSubdir = true
   darkmode = true
   multilanguage = true
 
-[params]
-  description = "Experience unforgettable kayak tours in the stunning Tigre Delta. Book your adventure today!"
-  images = ["img/DSC05308-2.jpg"]
-  title = "Kayak Tigre - Discover the Beauty of Tigre Delta"
-
-[params.meta]
-  keywords = ["kayak", "tigre", "delta", "tours", "adventure"]
-
-[social]
-  twitter = "kayaktigre"
-
 [params.style]
   css = ["css/custom.css"]
 
