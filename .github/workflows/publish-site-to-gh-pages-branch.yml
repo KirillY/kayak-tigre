@@ -15,16 +15,18 @@ on:
       - '.github/**/*.md'
 
 jobs:
-  build:
+  build-test-publish:
     runs-on: ubuntu-22.04
+    container:
+      image: mcr.microsoft.com/playwright:v1.40.0-jammy
     steps:
+      - name: Install Go
+        run: |
+          apt-get update
+          apt-get install -y golang-go
+
       - name: Check out the repository
         uses: actions/checkout@v2
-
-      - name: Set up Go
-        uses: actions/setup-go@v4
-        with:
-          go-version: '1.21'
 
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
@@ -38,38 +40,6 @@ jobs:
           path: /tmp/hugo_cache
           key: hugo-${{ hashFiles('go.sum') }}
           restore-keys: hugo-
-
-      - name: Build
-        run: hugo --minify
-        env:
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-
-      - name: Upload site artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: public
-          path: public
-
-  test:
-    needs: build
-    runs-on: ubuntu-22.04
-    container:
-      image: mcr.microsoft.com/playwright:v1.40.0-jammy
-    steps:
-      - name: Install Go
-        run: |
-          apt-get update
-          apt-get install -y golang-go
-
-      - name: Check out the repository
-        uses: actions/checkout@v2
-
-      - name: Download site artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: public
-          path: public
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -96,26 +66,20 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
-      - name: Start Hugo server
-        run: hugo server -D &
+      - name: Build
+        run: hugo --minify
         env:
+          HUGO_ENVIRONMENT: production
           HUGO_ENV: production
 
-      - name: Wait for Hugo server
-        run: sleep 5
-
       - name: Run e2e tests
-        run: npm run test:e2e
-
-  publish:
-    needs: [build, test]
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Download site artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: public
-          path: public
+        run: |
+          hugo server -D & # Start Hugo server in background
+          while ! nc -z localhost 1313; do   # Wait for Hugo server to be ready
+            sleep 1
+          done
+          npm run test:e2e
+          pkill hugo    # Stop Hugo server after tests
 
       - name: Publish to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
