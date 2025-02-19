@@ -15,11 +15,19 @@ Each content file should be in Markdown format (`.md`) with the following struct
 title: "Your Title"
 date: "2024-02-19"
 description: "Brief description"
-image: "/images/your-image.jpg"
+image: "https://your-image-host.com/image.jpg"  # Card preview image
 ---
 
 Your content goes here...
 ```
+
+The `image` in the front matter is used as the preview image in the services/blog list view. It will appear as a card header with these properties:
+- Fixed height of 300px
+- Object-fit: cover (maintains aspect ratio)
+- Appears above the title and description
+- Hover effect with slight elevation
+
+For content images within the article, use the figure shortcode as described below.
 
 ### Adding Images
 
