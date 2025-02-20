@@ -2,7 +2,7 @@ baseURL = 'https://kayak-tigre.com'
 languageCode = 'en-us'
 title = 'Kayak Tigre'
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 # Prevent localhost redirects
 [server]
