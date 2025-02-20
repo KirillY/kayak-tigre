@@ -2,5 +2,4 @@
   type = "Organization"
   name = "Kayak Tigre"
   description = "Explore the delta of Tigre with us"
-  image = { url = "/img/DSC05308-2.jpg" }
-  url = "https://kayak-tigre.com"
+  image = { url = "https://kayak-tigre.com/img/DSC05308-2.jpg" }
