@@ -6524,7 +6524,7 @@ function initIndex() {
         id: 2,
         tag: "en",
         href: "/en/services/mangrove-tour/",
-        title: "Mangrove Tour",
+        title: "Mangrove Tour for Beginners",
         description: "Kayak and SUP routes in the heart of the river delta",
         
         
