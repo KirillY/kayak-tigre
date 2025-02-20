@@ -13,7 +13,7 @@ description: "Discover the hidden beauty of Tigre Delta with us"
           <a href="/en/services/" class="btn btn-primary btn-lg">Discover Our Tours</a>
         </div>
       </div>
-      <div class="carousel-item" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://i.postimg.cc/CxH241tf/parana4.jpg'); background-size: cover; background-position: center; height: 60vh;">
+      <div class="carousel-item" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://i.postimg. cc/JnnFjQ9H/20240213-112828.jpg'); background-size: cover; background-position: center; height: 60vh;">
         <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white;">
           <h1 class="display-4 fw-bold">Experience Nature</h1>
           <p class="lead">Immerse yourself in the tranquility of the delta</p>
