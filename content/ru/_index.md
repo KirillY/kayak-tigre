@@ -1,7 +1,8 @@
 ---
 title: "Добро пожаловать в Kayak Tigre"
 description: "Откройте для себя красоту дельты Тигре"
-image: { url = "https://kayak-tigre.com/img/DSC05308-2.jpg" }
+image: { url = "https://kayak-tigre.com/img/DSC05308-2.jpg", width = "1200", height = "628" }
+url: "https://kayak-tigre.com/ru"
 ---
 
 <div style="position: relative; height: 60vh; width: 100%; overflow: hidden;">
