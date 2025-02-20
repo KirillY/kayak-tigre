@@ -62,7 +62,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Build
-        run: hugo --minify --baseURL https://kayak-tigre.com
+        run: hugo --minify
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
