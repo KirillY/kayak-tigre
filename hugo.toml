@@ -125,3 +125,7 @@ defaultContentLanguageInSubdir = true
 
 [params.footer]
   socialLinks = false
+
+[server]
+  baseURL = 'https://kayak-tigre.com'
+  bind = '0.0.0.0'
