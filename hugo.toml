@@ -33,7 +33,7 @@ defaultContentLanguageInSubdir = true
         weight = 5
       [[languages.en.menu.main]]
         identifier = "services"
-        name = "Our Services"
+        name = "Tours"
         url = "/services/"
         weight = 10
       [[languages.en.menu.main]]
