@@ -1,5 +1,5 @@
 ---
-title: "Mangrove Tour"
+title: "Mangrove Tour for Beginners"
 description: "Kayak and SUP routes in the heart of the river delta"
 type: "service"
 layout: "service"
