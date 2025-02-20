@@ -4,6 +4,13 @@ title = 'Kayak Tigre'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
 
+# Prevent localhost redirects
+[server]
+  [[server.headers]]
+    for = '/*'
+    [server.headers.values]
+      Access-Control-Allow-Origin = '*'
+
 [module]
   [[module.imports]]
     path = 'github.com/gethinode/hinode'
