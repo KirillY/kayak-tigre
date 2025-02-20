@@ -1,3 +1,8 @@
+---
+title: "Welcome to Kayak Tigre"
+description: "Discover the hidden beauty of Tigre Delta with us"
+---
+
 <div style="position: relative; height: 60vh; width: 100%; overflow: hidden;">
   <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
