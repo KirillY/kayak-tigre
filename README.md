@@ -170,23 +170,12 @@ This part describes how to install dependencies to start updating the site layou
 
 Before you start development, ensure you have the following tools installed:
 
-1. **Go (via asdf)**:
-   ```bash
-   # Install asdf-golang plugin
-   asdf plugin add golang
-   # Install latest Go version
-   asdf install golang latest
-   asdf global golang latest
-   ```
-   For more details, visit [asdf-golang](https://github.com/asdf-community/asdf-golang)
+1. **Go**:
+   - Follow the installation guide at [go.dev/doc/install](https://go.dev/doc/install)
 
 2. **Hugo**:
    - Follow the installation guide at [gohugo.io/installation](https://gohugo.io/installation/)
    - Ensure you install the extended version which includes SCSS support
-
-3. **Hinode**:
-   - Our site uses the Hinode theme, a modern Hugo theme
-   - Documentation available at [gethinode/hinode](https://github.com/gethinode/hinode)
 
 ### Local Development Setup
 
