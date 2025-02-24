@@ -13,7 +13,7 @@ description: "Откройте для себя красоту дельты Ти�
           <a href="/ru/services/" class="btn btn-primary btn-lg">Откройте для себя наши туры</a>
         </div>
       </div>
-      <div class="carousel-item" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://i.postimg.cc/CxH241tf/parana4.jpg'); background-size: cover; background-position: center; height: 60vh;">
+      <div class="carousel-item" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://i.postimg.cc/JnnFjQ9H/20240213-112828.jpg'); background-size: cover; background-position: center; height: 60vh;">
         <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white;">
           <h1 class="display-4 fw-bold">Почувствуйте природу</h1>
           <p class="lead">Погрузитесь в спокойствие дельты</p>
