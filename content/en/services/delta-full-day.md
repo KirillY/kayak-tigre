@@ -14,11 +14,11 @@ translations:
 
 Immerse yourself in a world of luxuriant wilderness where people live on water. There are no roads here, only an endless network of streams and channels. Before you lies the delta of South America's second-largest river - the Paraná.
 
-{{< figure src="https://i.postimg.cc/RV8SnDyf/IMG-20250216-155257-390.jpg" alt="Delta Experience" class="img-fluid rounded shadow mb-4" >}}
+{{< image src="https://i.postimg.cc/RV8SnDyf/IMG-20250216-155257-390.jpg" caption="Delta Experience" class="col-12" wrapper="text-center" >}}
 
-{{< figure src="https://i.postimg.cc/CxH241tf/parana4.jpg" alt="Parana River" class="img-fluid rounded shadow mb-4" >}}
+{{< image src="https://i.postimg.cc/CxH241tf/parana4.jpg" caption="Parana River" class="col-12" wrapper="text-center" >}}
 
-{{< figure src="https://i.postimg.cc/xd9XR7Wg/El-R-o-Tigre-desbocando-en-el-R-o-Luj-n-El-Club-de-Regatas-La-Marina-y-de-fondo-todo-el-verde-de-nu.jpg" alt="Tigre River" class="img-fluid rounded shadow mb-4" >}}
+{{< image src="https://i.postimg.cc/xd9XR7Wg/El-R-o-Tigre-desbocando-en-el-R-o-Luj-n-El-Club-de-Regatas-La-Marina-y-de-fondo-todo-el-verde-de-nu.jpg" caption="Tigre River" class="col-12" wrapper="text-center" >}}
 
 #### Why Choose Our Tour?
 From the city's central pier, we'll head to remote islands and quiet forest streams, away from the noise and busy navigation of Tigre's tourist center - especially important for kayaking beginners and participants with children. We'll meet you with a private boat, and the river cruise to our base is included in the tour price.
@@ -37,7 +37,7 @@ We'll kayak through four different rivers, land at an island festival square and
 🛶 Paddling through narrow forest streams 11 km, ~3 hours on water
 🏃 Trekking across the island through jungle to President Sarmiento's museum-dacha, ~1 hour walk
 
-{{< figure src="https://i.postimg.cc/brW16hn4/20231014-161804.jpg" alt="Kayak Experience" class="img-fluid rounded shadow mb-4" >}}
-{{< figure src="https://i.postimg.cc/qqntQCGH/Video-Capture-20250217-003936.jpg" alt="Delta Nature" class="img-fluid rounded shadow mb-4" >}}
+{{< image src="https://i.postimg.cc/brW16hn4/20231014-161804.jpg" caption="Kayak Experience" class="col-12" wrapper="text-center" >}}
+{{< image src="https://i.postimg.cc/qqntQCGH/Video-Capture-20250217-003936.jpg" caption="Delta Nature" class="col-12" wrapper="text-center" >}}
 
-</div>
+
