@@ -19,11 +19,8 @@ translations:
 
 🏃 ~1,5 часа привал и треккинг по острову (опционально).
 
-{{< figure src="https://i.postimg.cc/RV8SnDyf/IMG-20250216-155257-390.jpg" alt="Delta Experience" class="img-fluid rounded shadow mb-4" >}}
+{{< figure src="https://i.postimg.cc/BnBVtnrM/Video-Capture-20250217-140952.jpg" alt="Delta Experience" class="img-fluid rounded shadow mb-4" >}}
 
-{{< figure src="https://i.postimg.cc/CxH241tf/parana4.jpg" alt="Parana River" class="img-fluid rounded shadow mb-4" >}}
-
-{{< figure src="https://i.postimg.cc/xd9XR7Wg/El-R-o-Tigre-desbocando-en-el-R-o-Luj-n-El-Club-de-Regatas-La-Marina-y-de-fondo-todo-el-verde-de-nu.jpg" alt="Tigre River" class="img-fluid rounded shadow mb-4" >}}
 
 #### Почему нужно ехать в Тигре с нами?
 С центральной пристани города мы отправимся на дальние острова, в тихие лесные протоки, туда, где уже нет шума и бурной навигации туристического центра Тигре, что особенно очень важно для новичков в каякинге и участников с детьми. Мы встретим вас на частном катере, а речной круиз до нашей базы уже включён в стоимость тура.
