@@ -1,5 +1,5 @@
 ---
-title: "Delta Full Day Experience"
+title: "Esperita. Сто поворотов реки."
 description: "Маршруты на каяках и SUP в самом сердце дельты реки"
 type: "service"
 layout: "service"
