@@ -19,7 +19,7 @@ translations:
 
 🏃 ~1,5 часа привал и треккинг по острову (опционально).
 
-{{< figure src="https://i.postimg.cc/BnBVtnrM/Video-Capture-20250217-140952.jpg" alt="Delta Experience" class="img-fluid rounded shadow mb-4" >}}
+{{< figure src="https://i.postimg.cc/BnBVtnrM/Video-Capture-20250217-140952.jpg" alt="Delta Experience" class="img-fluid rounded shadow mb-3" >}}
 
 
 #### Почему нужно ехать в Тигре с нами?
