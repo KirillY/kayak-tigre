@@ -3,7 +3,7 @@
 	"file": "main.css",
 	"sourceRoot": "/__w/kayak-tigre/kayak-tigre",
 	"sources": [
-		"scss/bundle-1740443043682725975.scss",
+		"scss/bundle-1740444181530459601.scss",
 		"hugo:vars",
 		"../../../tmp/hugo_cache/modules/filecache/modules/pkg/mod/github.com/gethinode/hinode@v0.29.3/assets/scss/common/_variables.scss",
 		"../../../tmp/hugo_cache/modules/filecache/modules/pkg/mod/github.com/gethinode/hinode@v0.29.3/assets/scss/theme/_variables.scss",
