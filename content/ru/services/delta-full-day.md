@@ -28,7 +28,7 @@ translations:
 🏃 Треккинг по острову через джунгли к музею-даче президента Сармиенто, ~час ходьбы
 
 {{< figure src="https://i.postimg.cc/brW16hn4/20231014-161804.jpg" alt="Kayak Experience" class="img-fluid rounded shadow mb-4" >}}
-{{< figure src="https://i.postimg.cc/qqntQCGH/Video-Capture-20250217-003936.jpg" alt="Delta Nature" class="img-fluid rounded shadow mb-4" >}}
+
 
 Программа тура Esperita:
 
